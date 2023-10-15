@@ -1,0 +1,35 @@
+.about {
+    padding: 120px;
+    display: flex;
+    justify-content:center;
+    &__text {
+        width: 478px;
+        padding: 80px 6px 0 40px;
+    }
+    &__title {
+        width: 478px;
+        height: 64px;
+    }
+    &__descr {
+        width: 484px;
+        height: 80px;
+        margin-top: 24px;
+        margin-bottom: 150px;
+        &_text-1 {
+            margin-bottom: 30px;
+        }
+    }
+    &__stats {
+        display: flex;
+        margin-top: 64px;
+        gap: 64px;
+    }
+    &__column {
+            // width: 79px;
+            // height: 88px;
+            gap: 16px;
+        &_nums {
+            margin-bottom: 16px;
+        }
+    }
+}

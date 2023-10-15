@@ -1,0 +1,84 @@
+.h1 {
+    // text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 100% */
+    letter-spacing: -1.28px;
+    color: $black_main;
+    
+}
+
+.h2 {
+    // text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: -0.96px;
+    color: $black_main;
+    
+}
+
+.paragraph {
+    // text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    color: $black_main;
+    
+}
+
+.h4 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 100% */
+    color: $black_main;
+    
+}
+
+.h5 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    color: $black_main;
+}
+
+.h6 {
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+    color: $black_main;
+    opacity: 0.5;
+}
+
+.paragraph-massive {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    color: $black_main;
+    
+}
+
+.ok-iwannacry {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 200% */
+    letter-spacing: -0.64px;
+    color: $black_main;
+}
+
+.bold {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    color: $black_main;
+}

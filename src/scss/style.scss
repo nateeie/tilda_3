@@ -1,0 +1,28 @@
+@import './identic/colors';
+@import './identic/typography';
+@import './identic/mixins';
+@import './identic/buttons';
+@import './blocks/header';
+@import './blocks/promo';
+@import './blocks/works';
+@import './blocks/about';
+@import './blocks/services';
+@import './blocks/estimate';
+@import './blocks/QnA';
+@import './blocks/apply';
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+
+

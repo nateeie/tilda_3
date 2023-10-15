@@ -1,0 +1,25 @@
+.services {
+    height: 768px;
+    background: $black_main;
+    &__header {
+        display: flex;
+        text-align: center;
+        width: 156px;
+        height: 64px;
+        padding: 120px 502px 120px 502px;
+        color: $white_main
+    }
+    // &__cards {
+    //     width: auto;
+        &__card {
+            width: 368px;
+            height: 364px;
+            display: inline-flex;
+            padding: 40px;
+            flex-direction: column;
+            align-items: flex-start;
+            border-radius: 16px;
+            background: #FFF;
+            gap: 28px;
+        }
+    }

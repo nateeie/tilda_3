@@ -1,0 +1,48 @@
+.QnA {
+    background: $black_main;
+    padding: 120px 140px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    &__header {
+        text-align: center;
+        color: $white_main;
+        margin-bottom: 40px;
+    }
+
+    &__quests {
+        width: 1160px;
+        text-align: left;
+        &_question {
+            text-align: left;
+            display: flex;
+            padding: 32px 40px;
+            justify-content: space-between;
+            align-items: center;
+            align-self: stretch;
+            border-radius: 16px;
+            border: 1px solid $secondary_black;
+            background: $white_main;
+            margin-bottom: 16px;
+        }
+        &_title {
+            width: 1080px;
+        }
+        &_opened {
+            width: 800px; 
+        }
+        &_answer {
+            margin-top: 16px;
+        }
+    }
+}
+.uls {
+    margin-left: 20px;
+}
+
+// .cross {
+
+// }
